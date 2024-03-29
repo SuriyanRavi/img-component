@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+body{
+    background-color:hsl(233, 47%, 7%);
+    color: #fff;
+    margin: 50%x;
+}
+main{
+padding: 0;
+margin: 50px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sec1{
+    background-color:hsl(244, 38%, 16%) ;
+    padding: 60px;
+    border-radius: 5px;
+}
+.sec1 h1{
+    font-size: 40px;
+width:500px;
+margin: 0px 0px 30px 0px;
+font-weight: 700;
+}
+span{
+    color:#A45FD1; 
+    font-weight: 700;
+}
+.sec1 .para-con{
+    width: 350px;
+    font-size: 15px;
+    color: #E2E0F5;
+    margin: 0px 0px 80px 0px;
+    font-weight: 400;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 0;
+    margin: 0;
+}
+.foot .para1{
+    color: #fff;
+    width: 100px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.s1{
+    color: #9E9CB2;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+picture img{
+    height: 426px;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+@media screen and (max-width:578px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+        margin: 50px;
+    }
+    
+    article{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    section,.sec1{
+    background-color:hsl(244, 38%, 16%) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    border-radius :0px 0px 5px 5px ; 
+    padding: 60px;
+    width: 400px;
+    }
+    .sec1 h1{
+        font-size: 30px;
+        text-align: center;
+        width: 300px;
+    }
+    .sec1 .para-con{
+        color: #E2E0F5;
+        text-align: center;
+        width: 260px;
+        line-height: 20px;
+    }
+     .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .foot .para1{
+        color: #fff;
+        text-align: center;
+        width: 100px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        top: 0;
+        left: 30px;
+    }
+    picture img{
+        height: 426px;
+        width: 400px;
+        border-radius: 5px 5px 0px 0px;
+        
+    }
+}
+
